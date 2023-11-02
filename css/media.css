@@ -1,0 +1,413 @@
+/* Screen 1990px */
+@media (max-width:1990px) {
+    .wrapper {
+        max-width: 1350px;
+    }
+}
+
+/* Screen 1440px */
+@media (max-width:1440px) {
+    .wrapper {
+        max-width: 1350px;
+    }
+}
+
+/* Screen 1024px */
+@media (max-width: 1024px) {
+    .container {
+        max-width: none;
+        padding: 20px;
+    }
+
+    .california_bar_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: baseline;
+        margin-left: 20px;
+    }
+
+    .upcoming_event_img {
+        display: none;
+    }
+
+    .new_for_bar {
+        height: 220vh;
+    }
+
+    .new_bar_buttons {
+        max-width: 99%;
+    }
+
+    .new_bar_button {
+        max-width: 99%;
+    }
+
+    .menu_alhocol {
+        height: 80%;
+    }
+
+    .disco {
+        height: 400px;
+    }
+
+    .company_factor {
+        width: 400px;
+    }
+
+    .our_advantages {
+        height: 150vh;
+    }
+
+    .our_product_block_content {
+        max-width: 400px;
+    }
+
+    .our_product_img {
+        max-width: 400px;
+    }
+}
+
+/* Screen 880/ for image coctail & star */
+
+@media (max-width: 880px) {
+    .new_bar_star_img {
+        width: 150px;
+        height: 150px;
+        top: -24%;
+    }
+}
+
+/* Screen 768 */
+@media (max-width: 768px) {
+    .california_bar_title {
+        font-size: 70px;
+    }
+
+    .california_bar_text {
+        font-size: 36px;
+    }
+
+    .upcoming_event_title {
+        font-size: 36px;
+    }
+
+    .upcoming_event_item:last-child {
+        display: none;
+    }
+
+    .upcoming_event_item {
+        flex: 0 1 48%;
+    }
+
+    .upcoming_event_title {
+        margin-top: 55px;
+    }
+
+    .upcoming_event_block {
+        margin-bottom: 55px;
+    }
+
+    .new_for_bar {
+        height: 290vh;
+    }
+
+    .new_for_bar_title {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+
+    .new_for_bar_content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coctail_image {
+        width: 500px;
+        height: 350px;
+    }
+
+    .new_bar_star_img {
+        width: 230px;
+        height: 230px;
+        right: -10%;
+    }
+
+    .gallery_title {
+        font-size: 36px;
+        margin: 38px auto 20px;
+    }
+
+    .gallery_block {
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+    .gallery_item {
+        flex: 0 1 48%;
+    }
+
+    .about_company_title {
+        font-size: 36px;
+    }
+
+    .about_company_text {
+        font-size: 14px;
+    }
+
+    .our_advantages_block_title {
+        font-size: 36px;
+    }
+
+    .our_advantages_block_text {
+        font-size: 14px;
+    }
+
+    .our_advantages_content {
+        gap: 20px;
+    }
+
+    .our_product_wrapper {
+        gap: 20px;
+    }
+
+    .our_product_title {
+        font-size: 36px;
+        margin: 50px;
+    }
+
+    .our_product_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .our_product_block:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+    .our_product_block_content_title {
+        font-size: 30px;
+    }
+
+    .footer_content_title {
+        font-size: 36px;
+    }
+}
+
+/* Screen 620 */
+@media (max-width:620px) {
+    .california_bar_title {
+        font-size: 36px;
+    }
+
+    .california_bar_text {
+        font-size: 18px;
+    }
+
+    .new_for_bar_content {
+        max-width: 520px;
+    }
+
+    .new_for_bar_img {
+        max-width: 500px;
+    }
+
+    .new_for_bar_block {
+        max-width: 500px;
+    }
+    
+    .menu_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our_company_content {
+        height: 150vh;
+    }
+
+    .our_company_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_company_title {
+        text-align: center;
+    }
+
+    .new_for_bar_block {
+        width: 520px;
+    }
+    .new_bar_star_img {
+        width: 150px;
+        height: 150px;
+        right: 5%;
+        top: -15%;
+    }
+
+    .to_top {
+        bottom: 25px;
+        right: 30px;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Screen 425px */
+@media (max-width:425px) {
+    .menu_items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_item_title {
+        font-size: 16px;
+    }
+
+    .california_bar_block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .california_bar_block {
+        background: none;
+        margin: 0;
+    }
+
+    .california_bar_text {
+        text-align: center;
+    }
+
+    .california_bar {
+        height: 280px;
+    }
+
+    .california_bar_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 280px;
+    }
+
+    .upcoming_event {
+        padding: 30px;
+    }
+
+    .upcoming_event_title {
+        text-align: center;
+    }
+
+    .upcoming_event_block {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .new_bar_star_img {
+        display: none;
+    }
+
+    .new_for_bar_content {
+        margin: 0;
+        gap: 0;
+    }
+    .new_for_bar_img {
+        display: flex;
+        justify-content: baseline;
+        align-items: baseline;
+        margin: 0;
+    }
+
+    .coctail_image {
+        width: 385px;
+        height: 300px;
+    }
+
+    .new_for_bar_title {
+        margin-bottom: 20px;
+    }
+
+    .new_for_bar_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 348px;
+    }
+    .new_for_bar_item {
+        width: 368px;
+    }
+
+    .new_bar_buttons {
+        height: 300px;
+    }
+    .menu_alhocol {
+        height: 100px;
+    }
+
+    .to_top {
+        display: none;
+    }
+
+    .gallery_block {
+        padding: 30px;
+        gap: 10px
+    }
+
+    .gallery_item {
+        flex: 0 1 48%;
+    }
+
+    .company_factor {
+        width: 300px;
+    }
+}
+
+/* Screen 320px */
+@media (max-width: 320px) {
+     .california_bar_title {
+        font-size: 20px;
+    }
+
+    .california_bar_text {
+        font-size: 14px;
+    }
+
+    .california_bar_block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .coctail_image {
+        width: 300px;
+    }
+
+    .new_bar_item_part {
+        width: 300px;
+    }
+
+    .menu_items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .california_bar_block {
+        width: 100%;
+        text-align: center;
+    } 
+
+    .our_product_img {
+        width: 300px;
+    }
+}
